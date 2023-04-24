@@ -1,0 +1,190 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Staatliches', cursive;
+}
+
+p {
+    text-align: center;
+}
+
+/* Header */
+
+.head-container {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+nav a {
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+
+
+}
+
+.head-container img {
+    width: 75px;
+}
+
+nav span {
+    padding: 1rem;
+
+}
+
+input {
+    justify-content: flex-end;
+    height: 1rem;
+    align-self: center;
+    border: 2px solid darkgray;
+}
+
+/* Title */
+
+.title h1 {
+    font-size: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.title h1:hover {
+    color: darkred;
+}
+
+/*HomePage*/
+
+.red h2,
+h4 {
+    font-size: 2em;
+    text-align: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.button button {
+    height: 5rem;
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 15px;
+    border-radius: 5px;
+    font-family: 'Staatliches', cursive;
+}
+
+.button button:hover {
+    background-color: darkred;
+    color: black;
+}
+
+/*About us area*/
+
+/* Events */ 
+
+#events {
+    text-align: left;
+    margin: 50px;
+ 
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.photos span {
+   display: flex;
+   justify-content: flex-end;
+}
+
+.photos img {
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+  
+}
+
+/* members*/
+
+.founding {
+    display:flex;
+    justify-content: center;
+}
+
+.members img {
+    width: 500px;
+    height: 500px;
+    
+}
+
+.members span {
+    display: flex;
+    text-align: center;
+  
+}
+
+.members ul, li {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+/* footer */ 
+footer {
+
+    display: flex;
+    justify-content: center;
+    margin: 300px;
+}
+
+
+/* Animation */
+.bouncy {
+    animation: bouncy 5s infinite linear;
+    position: relative;
+}
+
+@keyframes bouncy {
+    0% {
+        top: 0em
+    }
+
+    40% {
+        top: 0em
+    }
+
+    43% {
+        top: -0.9em
+    }
+
+    46% {
+        top: 0em
+    }
+
+    48% {
+        top: -0.4em
+    }
+
+    50% {
+        top: 0em
+    }
+
+    100% {
+        top: 0em;
+    }
+}
+
+@media all and (max-width: 800px) {
+        body {
+            background-color: red;
+            font-size: 2rem;
+        }
+}
